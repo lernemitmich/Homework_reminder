@@ -1,0 +1,11 @@
+16/5/23
+A centralised location for track of homeworks, assignments, projects deadlines & exam dates:
+create a basic program that allows users to track homework, assignments, project deadlines, and exam dates.
+To store and organize the information here a suitable data structure for this task is a dictionary, where the keys represent the task names, and the values represent the corresponding deadlines or dates.
+Now we need to add, remove and display tasks with their deadline.
+then we need a system to interact with the user. Display options to add tasks, display tasks, remove tasks, and exit the program. Continuously prompt the user for their choice until they choose to exit.
+if __name__ == "__main__": helps identify if the script is being run directly as the main program or if it is being imported as a module.
+
+When a Python script is executed directly as the main program, the special variable __name__ is set to the value "__main__". On the other hand, if the script is imported as a module by another script, the value of __name__ will be the name of the module itself.
+In this code snippet, the if __name__ == "__main__": block checks if the current script is being executed as the main program. If it is, the code inside the block (in this case, calling the menu() function) will be executed.
+
